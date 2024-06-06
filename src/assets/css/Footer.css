@@ -1,0 +1,40 @@
+.Footer {
+    background-color: #423838;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .Footer .container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .Footer h3 {
+    color: #fff;
+  }
+  
+  .Footer p {
+    color: #ccc;
+  }
+  
+  .Footer p.text-center {
+    margin-top: 20px;
+  }
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    .Footer {
+      text-align: center;
+    }
+    .Footer .container {
+      width: 100%;
+    }
+    .Footer .row {
+      display: block;
+    }
+    .Footer .col-md-6 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
