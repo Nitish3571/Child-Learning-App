@@ -17,7 +17,7 @@ const CarouselComp = () => {
         {
           title: "Card title 1 ka 2",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Lorem ipsum dolor sit amet, consectetur adipia aliqua.",
         },
         {
           title: "Card title 1 ka 3",
@@ -34,7 +34,7 @@ const CarouselComp = () => {
         {
           title: "Card title 2 ka 1",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Lorem ipsum dolor sit amet, consecte dolore magna aliqua.",
         },
         {
           title: "Card title 2 ka 2",
@@ -57,7 +57,7 @@ const CarouselComp = () => {
         {
           title: "Card title 3 ka 2",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Lorem ipsum dolor sit amet, cut labore et dolore magna aliqua.",
         },
         {
           title: "Card title 3 ka 3",
@@ -86,7 +86,7 @@ const CarouselComp = () => {
         {
           title: "Card title 4 ka 1",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Lorem ipsum dolor sit amet, consectetur aolore magna aliqua.",
         },
       ],
     },
@@ -99,7 +99,7 @@ const CarouselComp = () => {
           <div
             style={{
               backgroundImage: `url(${card.backgroundImage})`,
-              height: "80vh",
+              height: "60vh",
               backgroundSize: "cover",
               display: "flex",
               justifyContent: "space-around",
@@ -111,7 +111,7 @@ const CarouselComp = () => {
                 key={cardIndex}
                 title={cardDetails.title}
                 bordered={false}
-                className={`${cardDetails.className} md:block w-72 h-72 bg-white bg-opacity-80 rounded-2xl shadow-md text-center`}
+                className={`${cardDetails.className} w-56 h-52  md:block sm:w-72 sm:h-72 bg-white bg-opacity-80 rounded-2xl shadow-md text-center`}
               >
                 <p className="text-center">{cardDetails.description}</p>
                 <Button type="primary" shape="round" size="large">
